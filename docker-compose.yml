@@ -1,0 +1,90 @@
+version: '3.8'
+
+services:
+  # FastAPI Application Backend Gateway
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ais_fastapi_api
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_ENV=development
+      - DB_HOST=timescaledb
+      - DB_PORT=5432
+      - DB_USER=ais_admin
+      - DB_PASSWORD=ais_password_123
+      - DB_NAME=ais_db
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - MINIO_ENDPOINT=minio:9000
+      - MQTT_BROKER_HOST=mosquitto
+    depends_on:
+      timescaledb:
+        condition: service_healthy
+      redis:
+        condition: service_started
+      minio:
+        condition: service_started
+    volumes:
+      - .:/app
+    command: uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
+
+  # PostgreSQL 16 with TimescaleDB & pgvector extensions
+  timescaledb:
+    image: timescale/timescaledb:latest-pg16
+    container_name: ais_timescaledb
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: ais_admin
+      POSTGRES_PASSWORD: ais_password_123
+      POSTGRES_DB: ais_db
+    volumes:
+      - timescaledb_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ais_admin -d ais_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache & Celery Task Queue Broker
+  redis:
+    image: redis:7-alpine
+    container_name: ais_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  # MinIO S3 Object Storage
+  minio:
+    image: minio/minio:latest
+    container_name: ais_minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: minio_admin
+      MINIO_ROOT_PASSWORD: minio_secret_password
+    volumes:
+      - minio_data:/data
+    command: server /data --console-address ":9001"
+
+  # Mosquitto MQTT Broker for IoT Sensors
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: ais_mosquitto
+    ports:
+      - "1883:1883"
+      - "9001:9002"
+    volumes:
+      - ./mosquitto/config/mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - mosquitto_data:/mosquitto/data
+
+volumes:
+  timescaledb_data:
+  redis_data:
+  minio_data:
+  mosquitto_data:
