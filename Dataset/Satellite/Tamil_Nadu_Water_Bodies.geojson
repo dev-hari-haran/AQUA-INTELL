@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "source": "ISRO Bhuvan / India-WRIS",
+    "source_url": "https://bhuvan.nrsc.gov.in | https://indiawris.gov.in"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pichavaram Mangrove Backwaters",
+        "type": "Estuarine Backwater",
+        "district": "Cuddalore",
+        "area_sq_km": 11.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.78,
+              11.42
+            ],
+            [
+              79.8,
+              11.42
+            ],
+            [
+              79.8,
+              11.4
+            ],
+            [
+              79.78,
+              11.4
+            ],
+            [
+              79.78,
+              11.42
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "project": "AQUA-INTELL (AIS)",
+  "folder": "Approval",
+  "description": "Comprehensive dataset collection for Water Quality, Fish Disease, Growth/Feed, Gen AI RAG, and Satellite modules.",
+  "modules": {
+    "Water Quality": [
+      {
+        "name": "Tamil Nadu Water Quality",
+        "file": "Approval/Water_Quality/Tamil_Nadu_Water_Quality.csv",
+        "format": "CSV"
+      },
+      {
+        "name": "Tamil Nadu Sensor Data",
+        "file": "Approval/Water_Quality/Tamil_Nadu_Sensor_Data.csv",
+        "format": "CSV"
+      },
+      {
+        "name": "Tamil Nadu Aqua Monitoring",
+        "file": "Approval/Water_Quality/Tamil_Nadu_Aqua_Monitoring.csv",
+        "format": "CSV"
+      },
+      {
+        "name": "Synthetic Sensor Streams",
+        "file": "Approval/Water_Quality/Synthetic_Sensor_Streams.csv",
+        "format": "CSV"
+      }
+    ],
+    "Fish Disease": [
+      {
+        "name": "Tamil Nadu Fish Disease",
+        "file": "Approval/Fish_Disease/Tamil_Nadu_Fish_Disease.json",
+        "format": "JSON"
+      },
+      {
+        "name": "Tamil Nadu Aquaculture Images",
+        "file": "Approval/Fish_Disease/Tamil_Nadu_Aquaculture_Images_metadata.csv",
+        "format": "CSV"
+      },
+      {
+        "name": "Tamil Nadu FishNet Images",
+        "file": "Approval/Fish_Disease/Tamil_Nadu_FishNet_Images_metadata.csv",
+        "format": "CSV"
+      },
+      {
+        "name": "Tamil Nadu Fish Health Records",
+        "file": "Approval/Fish_Disease/Tamil_Nadu_Fish_Health_Records.csv",
+        "format": "CSV"
+      },
+      {
+        "name": "Gen AI Synthetic Augmentation",
+        "file": "Approval/Fish_Disease/GenAI_Synthetic_Augmentation.json",
+        "format": "JSON"
+      },
+      {
+        "name": "YOLOv8 Fish Detection Dataset",
+        "file": "Approval/Fish_Disease/YOLOv8_Fish_Detection_dataset.yaml",
+        "format": "YAML"
+      }
+    ],
+    "Growth / Feed": [
+      {
+        "name": "Tamil Nadu Fish Statistics",
+        "file": "Approval/Growth_Feed/Tamil_Nadu_Fish_Statistics.csv",
+        "format": "CSV"
+      },
+      {
+        "name": "Tamil Nadu SGR Tables",
+        "file": "Approval/Growth_Feed/Tamil_Nadu_SGR_Tables.csv",
+        "format": "CSV"
+      },
+      {
+        "name": "Tamil Nadu Pond Trial Data",
+        "file": "Approval/Growth_Feed/Tamil_Nadu_Pond_Trial_Data.csv",
+        "format": "CSV"
+      },
+      {
+        "name": "Tamil Nadu Fish Growth Data",
+        "file": "Approval/Growth_Feed/Tamil_Nadu_Fish_Growth_Data.csv",
+        "format": "CSV"
+      },
+      {
+        "name": "Synthetic Growth Curves",
+        "file": "Approval/Growth_Feed/Synthetic_Growth_Curves.csv",
+        "format": "CSV"
+      }
+    ],
+    "Gen AI RAG": [
+      {
+        "name": "Tamil Nadu Technical Bulletins",
+        "file": "Approval/GenAI_RAG/Tamil_Nadu_Technical_Bulletins.json",
+        "format": "JSON"
+      },
+      {
+        "name": "Tamil Nadu Fish Health Guides",
+        "file": "Approval/GenAI_RAG/Tamil_Nadu_Fish_Health_Guides.json",
+        "format": "JSON"
+      },
+      {
+        "name": "Tamil Nadu Fisheries Papers",
+        "file": "Approval/GenAI_RAG/Tamil_Nadu_Fisheries_Papers.json",
+        "format": "JSON"
+      },
+      {
+        "name": "Tamil Nadu Export Docs",
+        "file": "Approval/GenAI_RAG/Tamil_Nadu_Export_Docs.json",
+        "format": "JSON"
+      },
+      {
+        "name": "Tamil Nadu Scheme Docs",
+        "file": "Approval/GenAI_RAG/Tamil_Nadu_Scheme_Docs.json",
+        "format": "JSON"
+      }
+    ],
+    "Satellite": [
+      {
+        "name": "Sentinel-2 L2A Imagery",
+        "file": "Approval/Satellite/Sentinel2_L2A_Imagery_metadata.json",
+        "format": "JSON"
+      },
+      {
+        "name": "Tamil Nadu Shrimp Ponds",
+        "file": "Approval/Satellite/Tamil_Nadu_Shrimp_Ponds.geojson",
+        "format": "GeoJSON"
+      },
+      {
+        "name": "Tamil Nadu Water Bodies",
+        "file": "Approval/Satellite/Tamil_Nadu_Water_Bodies.geojson",
+        "format": "GeoJSON"
+      },
+      {
+        "name": "MODIS Aqua Chlorophyll",
+        "file": "Approval/Satellite/MODIS_Aqua_Chlorophyll.csv",
+        "format": "CSV"
+      }
+    ]
+  }
+}

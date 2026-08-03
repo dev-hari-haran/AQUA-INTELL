@@ -1,0 +1,17 @@
+{
+  "title": "Tamil Nadu Scheme Docs",
+  "data_source": "Tamil Nadu Fisheries Department / Dept of Fisheries India",
+  "source_url": "https://www.fisheries.tn.gov.in | https://dof.gov.in",
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-001",
+      "header": "Executive Summary & Operational Guidelines",
+      "text": "Pradhan Mantri Matsya Sampada Yojana (PMMSY) TN Implementation Guidelines and Subsidy Patterns. This document provides official regulatory, scientific, and field protocols tailored for aquaculture practitioners and researchers in Tamil Nadu."
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "header": "Water Quality & Biosecurity Standards",
+      "text": "Maintain dissolved oxygen above 4.0 mg/L, pH between 7.5 and 8.5, and zero free ammonia. Implement bird netting, crab fencing, and reservoir disinfection with 30 ppm active chlorine before stocking."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "module": "Fish Disease Synthetic Image Generation",
+  "tools": [
+    "Anthropic Claude 3.5 Sonnet Prompting",
+    "Black Forest Labs FLUX.1 Diffusion"
+  ],
+  "urls": [
+    "https://docs.anthropic.com",
+    "https://blackforestlabs.ai"
+  ],
+  "augmented_samples": [
+    {
+      "sample_id": "GEN-FLUX-WSSV-01",
+      "prompt": "Macro photo of white spot virus symptoms on penaeus vannamei carapace, underwater lighting, high detail aquaculture photography",
+      "guidance_scale": 7.5,
+      "num_inference_steps": 50,
+      "fidelity_score": 0.94
+    },
+    {
+      "sample_id": "GEN-FLUX-EHP-02",
+      "prompt": "Aquaculture pond shrimp showing white feces syndrome symptoms, clear water close-up, biological field specimen",
+      "guidance_scale": 8.0,
+      "num_inference_steps": 50,
+      "fidelity_score": 0.91
+    }
+  ]
+}
