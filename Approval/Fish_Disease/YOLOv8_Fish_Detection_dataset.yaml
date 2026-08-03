@@ -1,0 +1,16 @@
+# YOLOv8 Fish & Shrimp Disease Detection Dataset Configuration
+# Sources: Ultralytics Docs (https://docs.ultralytics.com) | CVAT (https://www.cvat.ai)
+
+path: Approval/Fish_Disease/yolo_data
+train: images/train
+val: images/val
+test: images/test
+
+# Classes
+nc: 5
+names:
+  0: healthy_shrimp
+  1: wssv_white_spot
+  2: ehp_stunted
+  3: vibrio_lesion
+  4: gill_rot_carps

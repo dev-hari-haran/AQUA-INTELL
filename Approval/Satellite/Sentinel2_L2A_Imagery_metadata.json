@@ -1,0 +1,29 @@
+{
+  "dataset_name": "Sentinel-2 L2A Coastal Tile 44PQT (Nagapattinam/Karaikal)",
+  "sources": [
+    "Copernicus Data Space",
+    "Copernicus Browser"
+  ],
+  "urls": [
+    "https://dataspace.copernicus.eu",
+    "https://browser.dataspace.copernicus.eu"
+  ],
+  "scene_metadata": {
+    "tile_id": "T44PQT",
+    "acquisition_date": "2026-07-28T05:15:31Z",
+    "spacecraft": "Sentinel-2B",
+    "processing_level": "Level-2A (Bottom of Atmosphere Reflectance)",
+    "cloud_cover_pct": 2.4,
+    "bands_available": [
+      "B02 (Blue)",
+      "B03 (Green)",
+      "B04 (Red)",
+      "B08 (NIR)",
+      "B11 (SWIR)"
+    ],
+    "indices_calculated": {
+      "NDWI": "Normalized Difference Water Index for pond outline extraction",
+      "NDVI": "Normalized Difference Vegetation Index for mangrove health assessment"
+    }
+  }
+}

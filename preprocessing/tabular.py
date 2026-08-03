@@ -61,4 +61,4 @@ class TabularPreprocessor:
             df[f'{col}_mean_1h'] = df[col].rolling(60, min_periods=1).mean()
             df[f'{col}_mean_6h'] = df[col].rolling(360, min_periods=1).mean()
 
-        return df.fillna(method='bfill').fillna(0)
+        return df.bfill().fillna(0)

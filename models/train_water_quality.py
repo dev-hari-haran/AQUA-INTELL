@@ -10,8 +10,21 @@ from ingestion.convert_mat_dataset import convert_mat_to_dataframe
 MODEL_DIR = "./models/registry/water_quality"
 os.makedirs(MODEL_DIR, exist_ok=True)
 
-def load_or_generate_training_data(mat_path: str = 'water_dataset.mat') -> pd.DataFrame:
+def load_or_generate_training_data(mat_path: str = None) -> pd.DataFrame:
     """Loads real USGS water_dataset.mat dataset if present; otherwise generates synthetic data."""
+    if mat_path is None:
+        possible_paths = [
+            os.path.join('data', 'UCI Water Quality', 'UCI Water Quality.mat'),
+            os.path.join('data', 'UCI Water Quality', 'water_dataset.mat'),
+            'water_dataset.mat'
+        ]
+        for p in possible_paths:
+            if os.path.exists(p):
+                mat_path = p
+                break
+        if mat_path is None:
+            mat_path = 'water_dataset.mat'
+
     if os.path.exists(mat_path):
         print(f"[Dataset] Loading real USGS dataset from {mat_path}...")
         df_mat = convert_mat_to_dataframe(mat_path)
@@ -50,7 +63,7 @@ def train_water_quality_models():
     print("=" * 60)
 
     print("[1/3] Loading & Preprocessing Water Quality Dataset...")
-    df_raw = load_or_generate_training_data('water_dataset.mat')
+    df_raw = load_or_generate_training_data()
     preprocessor = TabularPreprocessor()
     df_clean = preprocessor.filter_spikes(preprocessor.validate_ranges(df_raw))
     df_features = preprocessor.extract_features(df_clean)
@@ -64,7 +77,7 @@ def train_water_quality_models():
     joblib.dump(iso_forest, os.path.join(MODEL_DIR, "isolation_forest.joblib"))
 
     print("[3/3] Training XGBoost DO 24h Forecaster...")
-    y_do_24h = df_features['do_mgl'].shift(-60).fillna(method='ffill')
+    y_do_24h = df_features['do_mgl'].shift(-60).ffill()
     xgb_do_forecaster = XGBRegressor(n_estimators=300, max_depth=6, learning_rate=0.05, random_state=42)
     xgb_do_forecaster.fit(X, y_do_24h)
     joblib.dump(xgb_do_forecaster, os.path.join(MODEL_DIR, "xgb_do_forecaster.joblib"))

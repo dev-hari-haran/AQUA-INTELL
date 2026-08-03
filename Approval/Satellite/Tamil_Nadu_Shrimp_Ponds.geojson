@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "source": "ICAR-CIBA Shrimp Research / ISRO Bhuvan",
+    "source_url": "https://bhuvan.nrsc.gov.in | https://icar.gov.in"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "pond_id": "TN-NAG-POND-01",
+        "district": "Nagapattinam",
+        "area_ha": 0.85,
+        "species": "Penaeus vannamei"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.845,
+              10.762
+            ],
+            [
+              79.8465,
+              10.762
+            ],
+            [
+              79.8465,
+              10.761
+            ],
+            [
+              79.845,
+              10.761
+            ],
+            [
+              79.845,
+              10.762
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pond_id": "TN-CUD-POND-02",
+        "district": "Cuddalore",
+        "area_ha": 1.1,
+        "species": "Lates calcarifer"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.761,
+              11.745
+            ],
+            [
+              79.763,
+              11.745
+            ],
+            [
+              79.763,
+              11.7435
+            ],
+            [
+              79.761,
+              11.7435
+            ],
+            [
+              79.761,
+              11.745
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

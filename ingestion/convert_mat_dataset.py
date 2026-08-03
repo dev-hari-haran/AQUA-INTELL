@@ -3,10 +3,23 @@ import scipy.io as sio
 import pandas as pd
 import numpy as np
 
-def convert_mat_to_dataframe(mat_path: str = 'water_dataset.mat'):
+def convert_mat_to_dataframe(mat_path: str = None):
     """
     Parses water_dataset.mat and converts it into a structured Pandas DataFrame.
     """
+    if mat_path is None:
+        possible_paths = [
+            os.path.join('data', 'UCI Water Quality', 'UCI Water Quality.mat'),
+            os.path.join('data', 'UCI Water Quality', 'water_dataset.mat'),
+            'water_dataset.mat'
+        ]
+        for p in possible_paths:
+            if os.path.exists(p):
+                mat_path = p
+                break
+        if mat_path is None:
+            mat_path = 'water_dataset.mat'
+
     if not os.path.exists(mat_path):
         raise FileNotFoundError(f"MAT file not found at {mat_path}")
 

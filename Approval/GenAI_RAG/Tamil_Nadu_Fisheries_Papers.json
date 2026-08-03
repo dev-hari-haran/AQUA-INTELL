@@ -1,0 +1,17 @@
+{
+  "title": "Tamil Nadu Fisheries Papers",
+  "data_source": "FAO Fisheries Publications",
+  "source_url": "https://www.fao.org/fishery/en/publications",
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-001",
+      "header": "Executive Summary & Operational Guidelines",
+      "text": "FAO Technical Paper 618: Sustainable Aquaculture Development along the Coromandel Coast of India. This document provides official regulatory, scientific, and field protocols tailored for aquaculture practitioners and researchers in Tamil Nadu."
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "header": "Water Quality & Biosecurity Standards",
+      "text": "Maintain dissolved oxygen above 4.0 mg/L, pH between 7.5 and 8.5, and zero free ammonia. Implement bird netting, crab fencing, and reservoir disinfection with 30 ppm active chlorine before stocking."
+    }
+  ]
+}

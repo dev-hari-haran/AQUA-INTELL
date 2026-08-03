@@ -1,0 +1,66 @@
+{
+  "dataset_name": "Tamil Nadu Fish & Shrimp Disease Registry",
+  "sources": [
+    "Kaggle Fish Disease Search",
+    "ICAR-CIBA Fish Health"
+  ],
+  "urls": [
+    "https://www.kaggle.com/search?q=fish+disease",
+    "https://ciba.res.in"
+  ],
+  "diseases": [
+    {
+      "disease_id": "DIS-001",
+      "name": "White Spot Syndrome Virus (WSSV)",
+      "target_species": "Penaeus vannamei, Penaeus monodon",
+      "symptoms": [
+        "White spots on carapace",
+        "Reddish discoloration",
+        "Lethargy",
+        "Sudden mass mortality"
+      ],
+      "pathogen": "Nimaviridae (WSSV)",
+      "diagnostic_method": "IQ2000 PCR / Nest PCR",
+      "tn_endemic_regions": [
+        "Nagapattinam",
+        "Cuddalore",
+        "Thanjavur"
+      ]
+    },
+    {
+      "disease_id": "DIS-002",
+      "name": "Enterocytozoon hepatopenaei (EHP)",
+      "target_species": "Penaeus vannamei",
+      "symptoms": [
+        "Severe growth retardation",
+        "Size variation",
+        "Soft shell",
+        "White feces"
+      ],
+      "pathogen": "Microsporidian parasite",
+      "diagnostic_method": "Microscopy & Real-Time PCR",
+      "tn_endemic_regions": [
+        "Ramanathapuram",
+        "Thoothukudi"
+      ]
+    },
+    {
+      "disease_id": "DIS-003",
+      "name": "Vibriosis (Vibrio harveyi / parahaemolyticus)",
+      "target_species": "Asian Seabass (Lates calcarifer), Shrimp larvae",
+      "symptoms": [
+        "Luminescence",
+        "Lethargy",
+        "Necrotic hepatopancreas",
+        "Red legs"
+      ],
+      "pathogen": "Vibrio spp. bacteria",
+      "diagnostic_method": "TCBS Agar plating / Matrix-assisted laser desorption",
+      "tn_endemic_regions": [
+        "Tiruvallur",
+        "Kanchipuram",
+        "Chengalpattu"
+      ]
+    }
+  ]
+}
