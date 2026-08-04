@@ -1,0 +1,3 @@
+species,days_of_culture_doc,initial_weight_g,final_weight_g,specific_growth_rate_sgr_pct_day,feed_conversion_ratio_fcr,protein_pct_in_feed,data_source,source_url,split
+Lates calcarifer (Seabass),180,5.0,650.0,2.7,1.45,42.0,ICAR-CIFA / ICAR-CIFA Publications,https://cifa.nic.in | https://cifa.nic.in/publications,train
+Penaeus monodon (Tiger Shrimp),110,0.005,32.0,7.97,1.5,38.0,ICAR-CIFA / ICAR-CIFA Publications,https://cifa.nic.in | https://cifa.nic.in/publications,train

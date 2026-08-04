@@ -1,0 +1,9 @@
+image_id,class_name,bbox_yolo_format,confidence_score,paper_citation,source_url,split
+FISHNET-TN-048.png,Vibrio_Lesion,0.4 0.1 0.35 0.42,0.88,FishNet AI (arXiv:2106.09178),https://fishnet.ai | https://arxiv.org/abs/2106.09178,test
+FISHNET-TN-039.png,Gill_Rot,0.4 0.8 0.35 0.42,0.91,FishNet AI (arXiv:2106.09178),https://fishnet.ai | https://arxiv.org/abs/2106.09178,test
+FISHNET-TN-010.png,Healthy,0.2 0.3 0.35 0.42,0.98,FishNet AI (arXiv:2106.09178),https://fishnet.ai | https://arxiv.org/abs/2106.09178,test
+FISHNET-TN-026.png,WSSV_Infected,0.9 0.3 0.35 0.42,0.97,FishNet AI (arXiv:2106.09178),https://fishnet.ai | https://arxiv.org/abs/2106.09178,test
+FISHNET-TN-019.png,Gill_Rot,0.2 0.4 0.35 0.42,0.9,FishNet AI (arXiv:2106.09178),https://fishnet.ai | https://arxiv.org/abs/2106.09178,test
+FISHNET-TN-004.png,Gill_Rot,0.5 0.5 0.35 0.42,0.85,FishNet AI (arXiv:2106.09178),https://fishnet.ai | https://arxiv.org/abs/2106.09178,test
+FISHNET-TN-034.png,Gill_Rot,0.8 0.3 0.35 0.42,0.99,FishNet AI (arXiv:2106.09178),https://fishnet.ai | https://arxiv.org/abs/2106.09178,test
+FISHNET-TN-024.png,Gill_Rot,0.7 0.1 0.35 0.42,0.93,FishNet AI (arXiv:2106.09178),https://fishnet.ai | https://arxiv.org/abs/2106.09178,test

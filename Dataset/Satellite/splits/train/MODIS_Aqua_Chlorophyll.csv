@@ -1,0 +1,22 @@
+date,latitude,longitude,chlor_a_mg_m3,sst_c,par_einstein_m2_day,quality_flag,data_source,source_url,split
+2026-07-01,10.76,79.85,7.325,28.02,45.1,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-02,10.76,79.85,8.283,28.74,41.4,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-03,10.76,79.85,6.346,29.39,43.9,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-04,10.76,79.85,8.259,28.09,43.5,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-05,10.76,79.85,6.445,29.47,40.9,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-06,10.76,79.85,7.04,28.94,42.7,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-07,10.76,79.85,2.162,29.47,40.8,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-08,10.76,79.85,3.461,28.49,46.5,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-09,10.76,79.85,6.111,29.35,41.5,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-10,10.76,79.85,5.762,28.97,46.2,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-11,10.76,79.85,7.814,28.02,44.9,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-12,10.76,79.85,1.578,28.93,41.8,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-13,10.76,79.85,3.439,28.6,44.5,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-14,10.76,79.85,3.639,29.25,42.7,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-15,10.76,79.85,1.699,29.33,41.8,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-16,10.76,79.85,4.359,29.17,42.2,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-17,10.76,79.85,1.613,28.64,47.1,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-18,10.76,79.85,5.885,29.14,44.6,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-19,10.76,79.85,2.653,28.71,45.5,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-20,10.76,79.85,1.94,28.47,41.7,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train
+2026-07-21,10.76,79.85,4.354,29.67,40.0,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,train

@@ -1,0 +1,9 @@
+trial_id,district,pond_area_ha,stocking_density_per_m2,species,doc,survival_rate_pct,final_biomass_kg,fcr,data_source,source_url,split
+TRIAL-TNJFU-2026-019,Chennai,1.03,55,Penaeus vannamei,100,77.3,5658,1.27,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,test
+TRIAL-TNJFU-2026-050,Cuddalore,1.16,31,Penaeus vannamei,100,77.8,4365,1.3,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,test
+TRIAL-TNJFU-2026-021,Nagapattinam,0.61,43,Penaeus vannamei,100,85.1,2463,1.38,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,test
+TRIAL-TNJFU-2026-008,Cuddalore,0.6,44,Penaeus vannamei,100,88.4,3905,1.24,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,test
+TRIAL-TNJFU-2026-043,Cuddalore,0.73,45,Penaeus vannamei,100,73.2,5703,1.28,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,test
+TRIAL-TNJFU-2026-015,Cuddalore,0.76,34,Penaeus vannamei,100,93.1,4106,1.28,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,test
+TRIAL-TNJFU-2026-029,Cuddalore,0.63,41,Penaeus vannamei,100,92.2,5775,1.23,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,test
+TRIAL-TNJFU-2026-039,Thoothukudi,0.46,32,Penaeus vannamei,100,92.7,4024,1.33,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,test

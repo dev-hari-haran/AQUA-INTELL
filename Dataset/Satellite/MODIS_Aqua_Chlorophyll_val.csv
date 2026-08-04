@@ -1,0 +1,5 @@
+date,latitude,longitude,chlor_a_mg_m3,sst_c,par_einstein_m2_day,quality_flag,data_source,source_url,split
+2026-07-22,10.76,79.85,4.987,28.3,47.3,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,val
+2026-07-23,10.76,79.85,2.027,28.69,45.4,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,val
+2026-07-24,10.76,79.85,6.343,28.72,42.3,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,val
+2026-07-25,10.76,79.85,4.103,28.45,41.1,0,NASA OceanColor / NASA OceanData,https://oceancolor.gsfc.nasa.gov | https://oceandata.sci.gsfc.nasa.gov,val

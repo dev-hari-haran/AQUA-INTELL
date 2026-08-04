@@ -1,0 +1,16 @@
+sample_id,district,location_name,latitude,longitude,ph,dissolved_oxygen_mgl,temperature_c,salinity_ppt,ammonia_mgl,turbidity_ntu,alkalinity_mgl,data_source,source_url,split
+TN-WQ-2026-0053,Ramanathapuram,Ramanathapuram Coastal Farm #3,12.7741,79.4514,7.27,8.7,30.9,31.8,0.024,54.6,136.7,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
+TN-WQ-2026-0022,Nagapattinam,Nagapattinam Coastal Farm #2,11.2289,78.0184,7.94,6.85,27.1,15.1,0.026,51.2,158.4,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
+TN-WQ-2026-0003,Thanjavur,Thanjavur Coastal Farm #3,10.4438,78.5825,7.39,6.88,26.7,22.8,0.231,25.0,146.0,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
+TN-WQ-2026-0024,Thanjavur,Thanjavur Coastal Farm #4,8.9215,78.7354,7.47,5.43,26.9,31.5,0.075,76.9,154.2,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
+TN-WQ-2026-0088,Ramanathapuram,Ramanathapuram Coastal Farm #3,11.9899,78.9066,7.58,3.32,30.7,21.8,0.123,21.6,122.7,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
+TN-WQ-2026-0092,Nagapattinam,Nagapattinam Coastal Farm #2,9.8192,79.7927,7.98,6.89,26.0,22.2,0.335,71.3,133.9,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
+TN-WQ-2026-0075,Thoothukudi,Thoothukudi Coastal Farm #5,10.266,79.6332,6.98,5.29,24.8,27.7,0.105,27.4,173.0,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
+TN-WQ-2026-0087,Thanjavur,Thanjavur Coastal Farm #2,8.8018,79.4999,7.88,6.33,27.4,15.6,0.096,52.4,114.6,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
+TN-WQ-2026-0083,Tiruvallur,Tiruvallur Coastal Farm #3,12.4145,79.0377,7.12,8.34,28.2,28.6,0.001,35.0,137.9,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
+TN-WQ-2026-0021,Kanchipuram,Kanchipuram Coastal Farm #1,10.0256,78.6984,8.01,6.86,29.0,25.9,0.013,22.1,172.9,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
+TN-WQ-2026-0061,Thoothukudi,Thoothukudi Coastal Farm #1,11.504,78.3446,7.59,5.55,28.3,18.5,0.068,47.8,158.3,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
+TN-WQ-2026-0072,Cuddalore,Cuddalore Coastal Farm #2,9.9506,79.6197,7.82,7.5,26.2,27.9,0.136,45.4,138.8,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
+TN-WQ-2026-0015,Nagapattinam,Nagapattinam Coastal Farm #5,10.8346,79.406,7.9,6.41,24.7,19.8,0.006,55.7,145.2,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
+TN-WQ-2026-0093,Cuddalore,Cuddalore Coastal Farm #3,9.6674,78.7594,7.18,7.23,25.9,24.4,0.086,32.1,176.4,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
+TN-WQ-2026-0052,Thanjavur,Thanjavur Coastal Farm #2,11.6417,79.0722,7.59,7.64,27.3,26.6,0.027,78.3,167.6,ICAR-CIBA / India-WRIS,https://ciba.res.in | https://indiawris.gov.in,test
