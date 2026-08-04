@@ -1,0 +1,13 @@
+station_id,coastal_zone,district,chlorophyll_a_mg_m3,turbidity_ssp,sea_surface_temp_c,dissolved_organic_matter,data_source,source_url,split
+ISRO-BHUVAN-TN-030,Zone-2 (Coromandel Coast),Cuddalore,2.516,11.0,27.9,1.547,ISRO Bhuvan / Copernicus Data Space,https://bhuvan.nrsc.gov.in | https://dataspace.copernicus.eu,test
+ISRO-BHUVAN-TN-002,Zone-2 (Coromandel Coast),Cuddalore,11.489,1.46,27.88,0.12,ISRO Bhuvan / Copernicus Data Space,https://bhuvan.nrsc.gov.in | https://dataspace.copernicus.eu,test
+ISRO-BHUVAN-TN-053,Zone-1 (Coromandel Coast),Ramanathapuram,1.164,11.07,31.43,0.746,ISRO Bhuvan / Copernicus Data Space,https://bhuvan.nrsc.gov.in | https://dataspace.copernicus.eu,test
+ISRO-BHUVAN-TN-022,Zone-2 (Coromandel Coast),Nagapattinam,1.977,2.68,30.26,1.662,ISRO Bhuvan / Copernicus Data Space,https://bhuvan.nrsc.gov.in | https://dataspace.copernicus.eu,test
+ISRO-BHUVAN-TN-003,Zone-3 (Coromandel Coast),Thanjavur,7.946,13.95,28.1,2.603,ISRO Bhuvan / Copernicus Data Space,https://bhuvan.nrsc.gov.in | https://dataspace.copernicus.eu,test
+ISRO-BHUVAN-TN-024,Zone-4 (Coromandel Coast),Thanjavur,2.706,5.79,28.02,1.058,ISRO Bhuvan / Copernicus Data Space,https://bhuvan.nrsc.gov.in | https://dataspace.copernicus.eu,test
+ISRO-BHUVAN-TN-075,Zone-3 (Coromandel Coast),Thoothukudi,4.522,12.2,29.98,0.6,ISRO Bhuvan / Copernicus Data Space,https://bhuvan.nrsc.gov.in | https://dataspace.copernicus.eu,test
+ISRO-BHUVAN-TN-021,Zone-1 (Coromandel Coast),Kanchipuram,5.424,11.39,30.12,2.776,ISRO Bhuvan / Copernicus Data Space,https://bhuvan.nrsc.gov.in | https://dataspace.copernicus.eu,test
+ISRO-BHUVAN-TN-061,Zone-1 (Coromandel Coast),Thoothukudi,9.243,3.15,29.41,0.681,ISRO Bhuvan / Copernicus Data Space,https://bhuvan.nrsc.gov.in | https://dataspace.copernicus.eu,test
+ISRO-BHUVAN-TN-072,Zone-4 (Coromandel Coast),Cuddalore,6.391,10.86,27.19,0.329,ISRO Bhuvan / Copernicus Data Space,https://bhuvan.nrsc.gov.in | https://dataspace.copernicus.eu,test
+ISRO-BHUVAN-TN-015,Zone-3 (Coromandel Coast),Nagapattinam,9.96,7.22,30.0,0.358,ISRO Bhuvan / Copernicus Data Space,https://bhuvan.nrsc.gov.in | https://dataspace.copernicus.eu,test
+ISRO-BHUVAN-TN-052,Zone-4 (Coromandel Coast),Thanjavur,9.479,7.73,27.26,2.786,ISRO Bhuvan / Copernicus Data Space,https://bhuvan.nrsc.gov.in | https://dataspace.copernicus.eu,test

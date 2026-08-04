@@ -1,0 +1,4 @@
+sample_id,species,age_weeks,length_cm,weight_g,feed_type,daily_ration_kg_per_100k,water_temp_c,data_source,source_url,split
+SAMP-WEEK-13,Penaeus vannamei,13,15.8,34.36,Commercial Extruded Pellets (38% CP),122.5,27.3,WorldFish / MPEDA,https://www.worldfishcenter.org | https://mpeda.gov.in,test
+SAMP-WEEK-04,Penaeus vannamei,4,6.4,2.39,Commercial Extruded Pellets (38% CP),46.0,28.7,WorldFish / MPEDA,https://www.worldfishcenter.org | https://mpeda.gov.in,test
+SAMP-WEEK-07,Penaeus vannamei,7,9.9,8.65,Commercial Extruded Pellets (38% CP),71.5,28.7,WorldFish / MPEDA,https://www.worldfishcenter.org | https://mpeda.gov.in,test

@@ -62,3 +62,63 @@ class TabularPreprocessor:
             df[f'{col}_mean_6h'] = df[col].rolling(360, min_periods=1).mean()
 
         return df.bfill().fillna(0)
+
+    def train_val_test_split(
+        self,
+        df: pd.DataFrame,
+        train_ratio: float = 0.70,
+        val_ratio: float = 0.15,
+        test_ratio: float = 0.15,
+        is_timeseries: bool = False,
+        time_col: str = None,
+        random_state: int = 42
+    ) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+        """
+        Splits tabular dataset into Train, Validation, and Test subsets according to given ratios.
+        
+        Args:
+            df: Input pandas DataFrame
+            train_ratio: Proportion for training set (default 0.70)
+            val_ratio: Proportion for validation set (default 0.15)
+            test_ratio: Proportion for test set (default 0.15)
+            is_timeseries: If True, performs chronological split without shuffling
+            time_col: Column name for sorting timestamps if time-series
+            random_state: Random state seed for reproducible non-timeseries split
+            
+        Returns:
+            Tuple of (train_df, val_df, test_df)
+        """
+        assert abs(train_ratio + val_ratio + test_ratio - 1.0) < 1e-5, "Ratios must sum to 1.0"
+        df = df.copy()
+
+        if is_timeseries:
+            if time_col and time_col in df.columns:
+                parsed_ts = pd.to_datetime(df[time_col], errors='coerce')
+                if parsed_ts.notna().any():
+                    df[time_col] = parsed_ts
+                    df = df.sort_values(by=time_col).reset_index(drop=True)
+
+
+            n = len(df)
+            train_end = int(n * train_ratio)
+            val_end = train_end + int(n * val_ratio)
+
+            train_df = df.iloc[:train_end].copy()
+            val_df = df.iloc[train_end:val_end].copy()
+            test_df = df.iloc[val_end:].copy()
+        else:
+            df_shuffled = df.sample(frac=1.0, random_state=random_state).reset_index(drop=True)
+            n = len(df_shuffled)
+            train_end = int(n * train_ratio)
+            val_end = train_end + int(n * val_ratio)
+
+            train_df = df_shuffled.iloc[:train_end].copy()
+            val_df = df_shuffled.iloc[train_end:val_end].copy()
+            test_df = df_shuffled.iloc[val_end:].copy()
+
+        train_df['split'] = 'train'
+        val_df['split'] = 'val'
+        test_df['split'] = 'test'
+
+        return train_df, val_df, test_df
+

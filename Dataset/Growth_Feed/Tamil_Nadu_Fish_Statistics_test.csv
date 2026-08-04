@@ -1,0 +1,7 @@
+year,district,inland_production_tons,marine_production_tons,brackishwater_production_tons,shrimp_export_mt,value_inr_crores,data_source,source_url,split
+2021,Kanyakumari,13142,24950,8232,2010.3,267.26,Tamil Nadu Fisheries at a Glance / Marine Fisheries Statistics (data.gov.in),https://www.data.gov.in/catalog/tamil-nadu-fisheries-glance-2020-21,test
+2023,Kanyakumari,21854,43501,14833,7710.7,164.3,Tamil Nadu Fisheries at a Glance / Marine Fisheries Statistics (data.gov.in),https://www.data.gov.in/catalog/tamil-nadu-fisheries-glance-2020-21,test
+2025,Kanyakumari,14857,50321,10964,5544.5,47.73,Tamil Nadu Fisheries at a Glance / Marine Fisheries Statistics (data.gov.in),https://www.data.gov.in/catalog/tamil-nadu-fisheries-glance-2020-21,test
+2022,Nagapattinam,23953,25423,17326,5014.8,127.38,Tamil Nadu Fisheries at a Glance / Marine Fisheries Statistics (data.gov.in),https://www.data.gov.in/catalog/tamil-nadu-fisheries-glance-2020-21,test
+2023,Nagapattinam,9838,73546,15338,7068.9,196.94,Tamil Nadu Fisheries at a Glance / Marine Fisheries Statistics (data.gov.in),https://www.data.gov.in/catalog/tamil-nadu-fisheries-glance-2020-21,test
+2025,Nagapattinam,9239,69301,10084,7625.1,104.33,Tamil Nadu Fisheries at a Glance / Marine Fisheries Statistics (data.gov.in),https://www.data.gov.in/catalog/tamil-nadu-fisheries-glance-2020-21,test

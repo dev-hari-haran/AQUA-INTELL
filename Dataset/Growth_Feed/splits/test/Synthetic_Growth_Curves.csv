@@ -1,0 +1,19 @@
+age_days,species,vbf_length_cm,vbf_weight_g,linf_cm,k_val,t0_val,data_source,source_url,split
+3,Penaeus vannamei (VBF Model),2.59,0.16,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+24,Penaeus vannamei (VBF Model),10.51,10.46,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+104,Penaeus vannamei (VBF Model),20.45,76.92,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+100,Penaeus vannamei (VBF Model),20.28,75.09,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+88,Penaeus vannamei (VBF Model),19.68,68.61,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+109,Penaeus vannamei (VBF Model),20.63,79.0,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+75,Penaeus vannamei (VBF Model),18.79,59.71,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+87,Penaeus vannamei (VBF Model),19.62,68.0,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+83,Penaeus vannamei (VBF Model),19.37,65.43,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+120,Penaeus vannamei (VBF Model),20.96,82.85,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+21,Penaeus vannamei (VBF Model),9.62,8.01,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+61,Penaeus vannamei (VBF Model),17.45,47.79,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+72,Penaeus vannamei (VBF Model),18.54,57.36,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+107,Penaeus vannamei (VBF Model),20.56,78.2,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+15,Penaeus vannamei (VBF Model),7.62,3.98,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+93,Penaeus vannamei (VBF Model),19.95,71.5,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+52,Penaeus vannamei (VBF Model),16.3,38.95,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test
+103,Penaeus vannamei (VBF Model),20.41,76.48,22.0,0.025,-2.0,Von Bertalanffy Function / R FSA Package,https://en.wikipedia.org/wiki/Von_Bertalanffy_function | https://cran.r-project.org/package=FSA,test

@@ -1,0 +1,19 @@
+timestamp,pond_id,do_mgl,ph,temp_c,nh3_mgl,turbidity_ntu,arima_do_forecast,data_source,source_url,split
+2026-08-02 01:30:00,POND-SYNTH-01,7.33,7.84,24.0,0.108,25.9,7.43,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 01:45:00,POND-SYNTH-02,7.25,7.93,24.0,0.095,25.0,7.35,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 02:00:00,POND-SYNTH-03,7.69,7.86,24.0,0.148,25.6,7.79,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 02:15:00,POND-SYNTH-01,7.51,7.85,24.0,0.043,25.2,7.61,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 02:30:00,POND-SYNTH-02,7.71,7.81,24.0,0.094,21.2,7.81,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 02:45:00,POND-SYNTH-03,7.68,7.81,24.1,0.108,22.9,7.78,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 03:00:00,POND-SYNTH-01,8.11,7.74,24.1,0.148,25.9,8.21,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 03:15:00,POND-SYNTH-02,7.8,7.85,24.2,0.04,26.8,7.9,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 03:30:00,POND-SYNTH-03,8.19,7.71,24.2,0.17,24.5,8.29,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 03:45:00,POND-SYNTH-01,8.1,7.74,24.3,0.093,26.6,8.2,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 04:00:00,POND-SYNTH-02,8.26,7.61,24.4,0.165,21.7,8.36,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 04:15:00,POND-SYNTH-03,8.35,7.73,24.5,0.045,24.2,8.45,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 04:30:00,POND-SYNTH-01,7.96,7.64,24.6,0.085,26.6,8.06,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 04:45:00,POND-SYNTH-02,8.48,7.7,24.7,0.072,24.6,8.58,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 05:00:00,POND-SYNTH-03,7.91,7.56,24.9,0.148,28.2,8.01,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 05:15:00,POND-SYNTH-01,8.02,7.55,25.0,0.099,25.6,8.12,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 05:30:00,POND-SYNTH-02,8.13,7.57,25.2,0.076,25.0,8.23,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test
+2026-08-02 05:45:00,POND-SYNTH-03,8.41,7.53,25.3,0.078,24.8,8.51,Statsmodels (ARIMA) / NumPy Synthetic Engine,https://www.statsmodels.org | https://numpy.org,test

@@ -1,0 +1,10 @@
+image_id,species,farm_location,disease_label,resolution,bounding_box_count,data_source,source_url,split
+TN-AQ-IMG-0005.jpg,Lates calcarifer,"Farm Cluster 1, Cuddalore TN",Healthy,1920x1080,2,Roboflow Universe / Roboflow,https://universe.roboflow.com/search?q=fish | https://roboflow.com,val
+TN-AQ-IMG-0054.jpg,Oreochromis niloticus,"Farm Cluster 5, Cuddalore TN",Gill_Rot,1920x1080,3,Roboflow Universe / Roboflow,https://universe.roboflow.com/search?q=fish | https://roboflow.com,val
+TN-AQ-IMG-0059.jpg,Penaeus monodon,"Farm Cluster 5, Cuddalore TN",Gill_Rot,1920x1080,4,Roboflow Universe / Roboflow,https://universe.roboflow.com/search?q=fish | https://roboflow.com,val
+TN-AQ-IMG-0031.jpg,Penaeus monodon,"Farm Cluster 2, Cuddalore TN",WSSV_Infected,1920x1080,4,Roboflow Universe / Roboflow,https://universe.roboflow.com/search?q=fish | https://roboflow.com,val
+TN-AQ-IMG-0025.jpg,Lates calcarifer,"Farm Cluster 1, Cuddalore TN",Healthy,1920x1080,2,Roboflow Universe / Roboflow,https://universe.roboflow.com/search?q=fish | https://roboflow.com,val
+TN-AQ-IMG-0052.jpg,Penaeus vannamei,"Farm Cluster 3, Cuddalore TN",EHP_Growth_Stunted,1920x1080,1,Roboflow Universe / Roboflow,https://universe.roboflow.com/search?q=fish | https://roboflow.com,val
+TN-AQ-IMG-0047.jpg,Penaeus monodon,"Farm Cluster 3, Cuddalore TN",EHP_Growth_Stunted,1920x1080,4,Roboflow Universe / Roboflow,https://universe.roboflow.com/search?q=fish | https://roboflow.com,val
+TN-AQ-IMG-0036.jpg,Penaeus vannamei,"Farm Cluster 2, Cuddalore TN",WSSV_Infected,1920x1080,1,Roboflow Universe / Roboflow,https://universe.roboflow.com/search?q=fish | https://roboflow.com,val
+TN-AQ-IMG-0012.jpg,Penaeus vannamei,"Farm Cluster 3, Cuddalore TN",EHP_Growth_Stunted,1920x1080,1,Roboflow Universe / Roboflow,https://universe.roboflow.com/search?q=fish | https://roboflow.com,val

@@ -1,10 +1,14 @@
 import os
+import sys
 import joblib
 import numpy as np
 import pandas as pd
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from sklearn.ensemble import IsolationForest
 from xgboost import XGBRegressor, XGBClassifier
 from preprocessing.tabular import TabularPreprocessor
+
 from ingestion.convert_mat_dataset import convert_mat_to_dataframe
 
 MODEL_DIR = "./models/registry/water_quality"
@@ -62,27 +66,58 @@ def train_water_quality_models():
     print("  AIS WATER QUALITY MODEL TRAINING PIPELINE")
     print("=" * 60)
 
-    print("[1/3] Loading & Preprocessing Water Quality Dataset...")
-    df_raw = load_or_generate_training_data()
+    print("[1/4] Loading & Preprocessing Water Quality Dataset...")
+    csv_split_path = os.path.join("Dataset", "Water_Quality", "Synthetic_Sensor_Streams_train.csv")
+    csv_master_path = os.path.join("Dataset", "Water_Quality", "Synthetic_Sensor_Streams.csv")
+    
     preprocessor = TabularPreprocessor()
+
+    if os.path.exists(csv_master_path):
+        print(f"[Dataset] Loading tabular dataset from {csv_master_path}...")
+        df_raw = pd.read_csv(csv_master_path)
+    else:
+        df_raw = load_or_generate_training_data()
+
     df_clean = preprocessor.filter_spikes(preprocessor.validate_ranges(df_raw))
     df_features = preprocessor.extract_features(df_clean)
 
-    feature_cols = [c for c in df_features.columns if c not in ['ts', 'data_quality', 'split']]
-    X = df_features[feature_cols]
+    if 'split' in df_features.columns:
+        train_df = df_features[df_features['split'] == 'train']
+        val_df = df_features[df_features['split'] == 'val']
+        test_df = df_features[df_features['split'] == 'test']
+    else:
+        train_df, val_df, test_df = preprocessor.train_val_test_split(
+            df_features, train_ratio=0.70, val_ratio=0.15, test_ratio=0.15, is_timeseries=True, time_col='ts'
+        )
 
-    print("[2/3] Training Isolation Forest Anomaly Detector...")
+    feature_cols = [c for c in df_features.columns if c not in ['ts', 'timestamp', 'data_quality', 'split', 'data_source', 'source_url', 'pond_id']]
+    
+    X_train = train_df[feature_cols]
+    X_val = val_df[feature_cols]
+    X_test = test_df[feature_cols]
+
+    print(f"Data Split Ratios -> Train: {len(X_train)} ({len(X_train)/len(df_features)*100:.1f}%), Val: {len(X_val)} ({len(X_val)/len(df_features)*100:.1f}%), Test: {len(X_test)} ({len(X_test)/len(df_features)*100:.1f}%)")
+
+    print("[2/4] Training Isolation Forest Anomaly Detector on Train set...")
     iso_forest = IsolationForest(n_estimators=100, contamination=0.05, random_state=42)
-    iso_forest.fit(X)
+    iso_forest.fit(X_train)
     joblib.dump(iso_forest, os.path.join(MODEL_DIR, "isolation_forest.joblib"))
 
-    print("[3/3] Training XGBoost DO 24h Forecaster...")
-    y_do_24h = df_features['do_mgl'].shift(-60).ffill()
+    print("[3/4] Training XGBoost DO 24h Forecaster on Train set & Evaluating on Val/Test sets...")
+    y_train = train_df['do_mgl'].shift(-15).ffill()
+    y_val = val_df['do_mgl'].shift(-15).ffill()
+    y_test = test_df['do_mgl'].shift(-15).ffill()
+
     xgb_do_forecaster = XGBRegressor(n_estimators=300, max_depth=6, learning_rate=0.05, random_state=42)
-    xgb_do_forecaster.fit(X, y_do_24h)
+    xgb_do_forecaster.fit(X_train, y_train, eval_set=[(X_val, y_val)], verbose=False)
     joblib.dump(xgb_do_forecaster, os.path.join(MODEL_DIR, "xgb_do_forecaster.joblib"))
 
-    print("SUCCESS: Water Quality models trained and serialized successfully!")
+    test_preds = xgb_do_forecaster.predict(X_test)
+    test_mae = np.mean(np.abs(test_preds - y_test))
+    print(f"[Validation/Test Metrics] XGBoost Forecaster Test MAE: {test_mae:.4f} mg/L")
+
+    print("[4/4] SUCCESS: Water Quality models trained on 70:15:15 splits and serialized successfully!")
 
 if __name__ == "__main__":
     train_water_quality_models()
+

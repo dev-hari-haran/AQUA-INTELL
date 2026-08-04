@@ -1,0 +1,8 @@
+trial_id,district,pond_area_ha,stocking_density_per_m2,species,doc,survival_rate_pct,final_biomass_kg,fcr,data_source,source_url,split
+TRIAL-TNJFU-2026-003,Ramanathapuram,0.41,53,Penaeus vannamei,100,89.8,2632,1.29,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,val
+TRIAL-TNJFU-2026-044,Thanjavur,0.64,39,Penaeus vannamei,100,77.1,2205,1.41,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,val
+TRIAL-TNJFU-2026-036,Cuddalore,0.63,40,Penaeus vannamei,100,91.7,5607,1.45,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,val
+TRIAL-TNJFU-2026-024,Ramanathapuram,0.78,51,Penaeus vannamei,100,77.4,4506,1.39,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,val
+TRIAL-TNJFU-2026-041,Kanyakumari,0.92,34,Penaeus vannamei,100,91.3,4140,1.29,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,val
+TRIAL-TNJFU-2026-011,Thoothukudi,0.51,48,Penaeus vannamei,100,89.2,4281,1.26,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,val
+TRIAL-TNJFU-2026-023,Thanjavur,1.17,45,Penaeus vannamei,100,93.5,4926,1.26,ICAR-CIBA / TNJFU Nagapattinam,https://ciba.res.in | https://www.tnjfu.ac.in,val

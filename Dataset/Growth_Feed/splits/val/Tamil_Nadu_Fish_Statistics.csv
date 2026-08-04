@@ -1,0 +1,6 @@
+year,district,inland_production_tons,marine_production_tons,brackishwater_production_tons,shrimp_export_mt,value_inr_crores,data_source,source_url,split
+2025,Ramanathapuram,8984,86766,7311,3884.8,60.98,Tamil Nadu Fisheries at a Glance / Marine Fisheries Statistics (data.gov.in),https://www.data.gov.in/catalog/tamil-nadu-fisheries-glance-2020-21,val
+2022,Ramanathapuram,21069,89692,9076,7814.6,133.41,Tamil Nadu Fisheries at a Glance / Marine Fisheries Statistics (data.gov.in),https://www.data.gov.in/catalog/tamil-nadu-fisheries-glance-2020-21,val
+2024,Cuddalore,14876,49073,12490,6338.2,46.2,Tamil Nadu Fisheries at a Glance / Marine Fisheries Statistics (data.gov.in),https://www.data.gov.in/catalog/tamil-nadu-fisheries-glance-2020-21,val
+2023,Thoothukudi,19139,24701,15590,1227.9,112.88,Tamil Nadu Fisheries at a Glance / Marine Fisheries Statistics (data.gov.in),https://www.data.gov.in/catalog/tamil-nadu-fisheries-glance-2020-21,val
+2024,Thoothukudi,17882,23613,8400,8184.6,182.61,Tamil Nadu Fisheries at a Glance / Marine Fisheries Statistics (data.gov.in),https://www.data.gov.in/catalog/tamil-nadu-fisheries-glance-2020-21,val

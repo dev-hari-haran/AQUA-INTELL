@@ -1,0 +1,16 @@
+sensor_id,reservoir_name,district,timestamp,water_level_m,inflow_cusecs,outflow_cusecs,storage_mcft,surface_temp_c,data_source,source_url,split
+TNS-RES-05,Vaigai,Tamil Nadu WRD Network,2026-01-18 12:00:00,27.7,2266,901,2937.8,29.0,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
+TNS-RES-06,Sathanur,Tamil Nadu WRD Network,2026-01-18 18:00:00,24.9,2294,500,5360.8,29.2,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
+TNS-RES-01,Poondi,Tamil Nadu WRD Network,2026-01-19 00:00:00,23.44,1832,1827,2257.8,27.2,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
+TNS-RES-02,Mettur,Tamil Nadu WRD Network,2026-01-19 06:00:00,25.99,2432,443,6980.7,28.5,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
+TNS-RES-03,Bhavanisagar,Tamil Nadu WRD Network,2026-01-19 12:00:00,26.36,1196,1078,3514.6,29.0,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
+TNS-RES-04,Pechiparai,Tamil Nadu WRD Network,2026-01-19 18:00:00,24.07,534,843,7785.9,27.3,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
+TNS-RES-05,Vaigai,Tamil Nadu WRD Network,2026-01-20 00:00:00,21.76,1967,348,7788.7,28.3,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
+TNS-RES-06,Sathanur,Tamil Nadu WRD Network,2026-01-20 06:00:00,27.9,704,239,2188.3,28.6,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
+TNS-RES-01,Poondi,Tamil Nadu WRD Network,2026-01-20 12:00:00,27.49,1162,572,5320.0,29.5,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
+TNS-RES-02,Mettur,Tamil Nadu WRD Network,2026-01-20 18:00:00,23.77,542,418,1256.7,29.7,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
+TNS-RES-03,Bhavanisagar,Tamil Nadu WRD Network,2026-01-21 00:00:00,24.2,2133,1630,5097.5,30.3,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
+TNS-RES-04,Pechiparai,Tamil Nadu WRD Network,2026-01-21 06:00:00,30.19,633,312,2888.2,26.3,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
+TNS-RES-05,Vaigai,Tamil Nadu WRD Network,2026-01-21 12:00:00,26.82,242,332,4165.4,30.7,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
+TNS-RES-06,Sathanur,Tamil Nadu WRD Network,2026-01-21 18:00:00,25.13,892,1063,1291.0,26.7,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
+TNS-RES-01,Poondi,Tamil Nadu WRD Network,2026-01-22 00:00:00,27.29,1218,1079,4421.9,29.3,Tamil Nadu WRD / Agri Reservoir Data,https://wrd.tn.gov.in | https://www.tnagrisnet.tn.gov.in,val
